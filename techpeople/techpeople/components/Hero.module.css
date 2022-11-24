@@ -3,37 +3,77 @@
 .Outer       {
     display: flex;
     padding: 50px;
-    background-image: url("/image/bg.png");
-    background-repeat: repeat-y;
+    background-image: url("/image/city.jpg");
+    background-repeat: no-repeat;
+    
     background-color: #61ce79;
     background-size: 85%;
+   
+    
+    
 }
 
-.innerleft {
-    display: block;
+.innerleft{
+   
+    width: 50%;
+    
+    
+
 }
+.innerright{
+ 
+    width: 50%;
+   
+    align-items: center;
+    display: flex;
+    justify-content: flex-end;
+    
+}
+.image{
+    
+    
+    
+    width: 600px;
+    height: 600px;
+    box-shadow: 2px 2px 10px black;
+    
+    
+}
+
+
+
+
 /*hero text holder*/
 .container {
     display: flex;
     align-self: center;
     padding: 0;
     margin:0;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    
+    
 }
 
 .container > p {
     font-size: 128pt;
     font-family: 'Times New Roman', Times, serif;
+    text-align: left !important;
+    
 }
 
 /*hero text*/
 .tech {
     color: white;
     margin-bottom: 0;
+    text-shadow: 2px 2px 10px black;
 }
 
 .people {
     color: #0CF807;
     margin-bottom: 0;
+    text-shadow: 2px 2px 10px black;
 }
 
 /*motto holder*/
@@ -42,6 +82,7 @@
     margin: 0;
     text-align: center;
     margin-bottom: 150px;
+    text-shadow: 2px 2px 10px black;
 }
 
 /*motto text*/
@@ -65,14 +106,6 @@
 
 }
 
-/*right image*/
-.innerright > img {
-    width: 572px;
-    height: 592px;
-    margin-left: 400px;
-    border-radius: 20px;
-    margin-top: 45px;
-}
 
 
 @media screen and (max-width: 1024px) {
@@ -89,6 +122,7 @@
 
 .innerleft {
     display: block;
+    width: 50%;
    
 }
 /*hero text holder*/
