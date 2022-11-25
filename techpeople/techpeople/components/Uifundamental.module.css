@@ -1,0 +1,29 @@
+.base {
+    background-color: #61CE79;
+    height: 500px;
+    width: 100%;
+    display: flex;
+}
+
+.right {
+    background-image: url("/image/fundamental1.png");
+    width: 50%;
+    background-size: 100% 100%;
+    background-repeat: repeat-x;
+
+}
+
+.left {
+    width: 650px;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 30px;
+    margin-top: 40px;
+}
+
+.left > h1 {
+    font-size: 35px;
+}
+.left > p {
+    font-size: 25px;
+}

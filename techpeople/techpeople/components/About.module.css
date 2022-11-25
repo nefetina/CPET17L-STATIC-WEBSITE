@@ -1,0 +1,25 @@
+.base {
+    background-image: url("/image/happy.png");
+    height: 500px !important;  
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding: 0;
+    margin-top: 0;
+}
+
+.container {
+
+    display: grid;
+    text-align: center;
+    margin-bottom: 150px;
+    text-shadow: 2px 2px 10px black;
+    align-items: center;
+    
+}
+
+.container > p {
+    font-size: 48px;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    padding-top: 70px;
+}

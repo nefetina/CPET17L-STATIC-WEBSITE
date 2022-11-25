@@ -1,4 +1,5 @@
 import styles from "./Learn.module.css";
+import Link from "next/link";
 
 const third = () => {
     return (
@@ -12,7 +13,7 @@ const third = () => {
                     <p>• Deployment</p>
                     <p>• UI Designing</p>
                 </div>
-                <button>Explore</button>
+                <button><Link href="/secondwindow">EXPLORE</Link></button>
             </div>
             <div className={styles.right}>
             </div>

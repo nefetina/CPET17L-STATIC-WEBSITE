@@ -3,6 +3,7 @@
     background-color: #61ce79;
     width: 100%;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-bottom: 50px;
 }
 
 .left {
@@ -49,7 +50,8 @@
 .right {
     background-image: url("/image/collage.png");
     width: 50%;
-    background-size: 100%;
+    background-size: 100% 100%;
+    background-repeat: repeat-x;
 }
 
 

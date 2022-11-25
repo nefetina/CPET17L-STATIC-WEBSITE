@@ -16,12 +16,9 @@ const Navbar = () => {
                     </div>
                 </div>
                 <div className={styles.buttons}>
-                    <Link href="/secondwindow">COURSE</Link>
-                    <a href= "/">HOME</a>
+                    <Link href="/">HOME</Link>
+                    <Link href="/aboutus">ABOUT US</Link>
                 </div>
-            </div>
-            <div className={styles.login}>
-                <button>LOGIN</button>
             </div>
         </div>
     );

@@ -1,20 +1,19 @@
-import Pic from "../components/Pic";
-import Course from "../components/Course";
+import About from "../components/About";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
+import Location from "../components/Location";
 
 
-
-const Next = () => {
+const Info = () => {
     return(
         <div>
             <Navbar />
-            <Pic />
-            <Course />
+            <About />
+            <Location />
             <Footer />
         </div>
     );
 };
 
 
-export default Next;
+export default Info;

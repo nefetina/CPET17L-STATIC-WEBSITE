@@ -1,0 +1,30 @@
+.base {
+    background-color: #0E4B35;
+    height: 600px;
+    width: 100%;
+    display: flex;
+}
+
+.left {
+    background-image: url("/image/web.png");
+    width: 50%;
+    background-size: 100% 100%;
+    background-repeat: repeat-x;
+
+}
+
+.right {
+    width: 600px;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 30px;
+    margin-top: 50px;
+}
+
+.right > h1 {
+    font-size: 40px;
+}
+.right > p {
+    font-size: 30px;
+}
+

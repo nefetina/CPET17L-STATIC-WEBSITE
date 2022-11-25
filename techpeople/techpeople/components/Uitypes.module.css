@@ -1,0 +1,46 @@
+.base {
+    background-color: #0E4B35;
+    height: 500px;
+    width: 100%;
+    display: flex;
+}
+
+.left {
+    background-image: url("/image/gui.png");
+    width: 50%;
+    background-size: 100% 100%;
+    background-repeat: repeat-x;
+
+}
+
+.right {
+    width: 650px;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+.right > h1 {
+    font-size: 35px;
+}
+.right > p {
+    font-size: 25px;
+}
+
+.button {
+    font-size: 35px;
+    margin-left: 400px;
+}
+.button > a{
+    display: flex;
+    margin: 15px;
+    font-size: 24px;
+    color: white;
+    text-decoration: none;
+}
+
+.button > a:hover{
+    color: black;
+    text-decoration: underline;
+}
