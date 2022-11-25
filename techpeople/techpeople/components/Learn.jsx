@@ -6,14 +6,13 @@ const third = () => {
             <div className={styles.left}>
                 <p>LEARN</p>
                 <div className={styles.contents}>
-                    <p>• Computer Programming</p>
-                    <p>• Web Development</p>
+                    <p>Computer Programming</p>
                     <p>• Database Management</p>
+                    <p>• Web Development</p>
                     <p>• Deployment</p>
                     <p>• UI Designing</p>
-                    <p>• Networking</p>
                 </div>
-                <button>Enroll Now</button>
+                <button>Explore</button>
             </div>
             <div className={styles.right}>
             </div>

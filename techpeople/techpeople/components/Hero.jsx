@@ -10,7 +10,7 @@ const Hero = () => {
             </div>
             <div className={styles.quote}>
                 <p>" The problem is yours, the solution is ours "</p>
-                <button>SIGN UP</button>
+                <button>SHOW PROJECT</button>
             </div>
         </div>
         <div className={styles.innerright}>
