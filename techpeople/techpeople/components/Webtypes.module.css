@@ -10,9 +10,9 @@
     
 }
 
-.content1{
+.content2{
     
-    grid-area: content1;
+    grid-area: content2;
     justify-content: left;
     align-items: center;
     display: flex;
@@ -24,8 +24,8 @@
     text-align: left;
     box-shadow: 2px 2px 10px black;
 }
-.content2{
-    grid-area: content2;
+.content1{
+    grid-area: content1;
     background-color: #0E4B35;
     justify-content: center;
     align-items: center;
@@ -33,7 +33,7 @@
     padding: 60px;
     overflow: hidden;
     overflow-y: scroll;
-    text-align: right;
+    text-align: left;
     text-shadow: 2px 2px 10px black;
     
 }
@@ -89,8 +89,8 @@
         grid-template-rows: 1.5fr 4fr 1fr;
         grid-template-areas: 
         
-        "content1"
         "content2"
+        "content1"
         "content3";
        
        

@@ -6,11 +6,8 @@ const uiweb = () => {
         
         <div className= {styles.container}>
             <div className= {styles.content1}>
-                
-            </div>
-            <div className= {styles.content2}>
                 <div className={styles.childcontent}>
-            
+                
                     <h1>Types of Web Development</h1>
                     <p>• Front-end web development </p>
                     <p>• Back-end web development </p>
@@ -20,6 +17,9 @@ const uiweb = () => {
                     <p>• Content developer</p>
                     <p>• Webmaster</p>
                 </div>
+            </div>
+            <div className= {styles.content2}>
+                
                 
                 
 
