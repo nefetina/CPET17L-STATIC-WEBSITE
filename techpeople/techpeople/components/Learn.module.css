@@ -3,7 +3,7 @@
     background-color: #61ce79;
     width: 100%;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    padding-bottom: 50px;
+    
 }
 
 .left {
@@ -25,7 +25,7 @@
 .contents {
     color: white;
     font-size: 45px;
-    padding-bottom: 30px;
+
 }
 
 .contents > p {

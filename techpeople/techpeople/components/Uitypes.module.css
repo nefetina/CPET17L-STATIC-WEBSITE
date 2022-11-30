@@ -7,7 +7,7 @@
 
 .left {
     background-image: url("/image/gui.png");
-    width: 50%;
+    width: 50.5%;
     background-size: 100% 100%;
     background-repeat: repeat-x;
 
@@ -30,7 +30,7 @@
 
 .button {
     font-size: 35px;
-    margin-left: 400px;
+    margin-left: 480px;
 }
 .button > a{
     display: flex;

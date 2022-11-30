@@ -29,7 +29,8 @@
 
 .button {
     font-size: 35px;
-    margin-left: 400px;
+    margin-left: 480px;
+    margin-top: 75px;
 }
 .button > a{
     display: flex;
