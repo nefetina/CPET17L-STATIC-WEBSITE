@@ -1,4 +1,5 @@
 import styles from "./Hero.module.css";
+import Link from "next/link";
 
 const Hero = () => {
   return (
@@ -10,7 +11,7 @@ const Hero = () => {
             </div>
             <div className={styles.quote}>
                 <p>" The problem is yours, the solution is ours "</p>
-                <button><a href="/images">SHOW PROJECT</a></button>
+                <button><Link href="/cam">SHOW PROJECT</Link></button>
             </div>
         </div>
         <div className={styles.innerright}>
