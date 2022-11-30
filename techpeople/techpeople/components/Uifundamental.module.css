@@ -1,31 +1,108 @@
-.base {
-    background-color: #61CE79;
-    height: 500px;
-    width: 100%;
+
+.container{
+    display: grid;
+    height: 90vh;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: 
+    "content1 content1 content2 content2";
+    
+}
+
+.content2{
+    
+    grid-area: content2;
+    justify-content: left;
+    align-items: center;
     display: flex;
-}
-
-.right {
+    background: url("/image/fundamental1.png");
     background-image: url("/image/fundamental1.png");
-    width: 50%;
-    background-size: 100% 100%;
-    background-repeat: repeat-x;
-
-
+    background-position: center center;
+    background-size: cover;
+    position: relative;
+    text-align: left;
+    box-shadow: 2px 2px 10px black;
 }
-
-.left {
-    width: 50%;
-    color: white;
-    font-family: 'Times New Roman', Times, serif;
-    margin-top: 40px;
+.content1{
+    grid-area: content1;
+    background-color: #0E4B35;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding: 60px;
+    overflow: hidden;
+    overflow-y: scroll;
+    text-align: left;
+    text-shadow: 2px 2px 10px black;
+    
 }
-
-.left > h1 {
-    font-size: 35px;
-    margin-left: 30px;
-}
-.left > p {
+.childcontent{
+    color: rgb(251, 255, 0);
     font-size: 25px;
-    margin-left: 30px;
 }
+.childcontent p {
+    color: white;
+    font-size: 30px ;
+}
+
+
+
+@media screen and (max-width: 1200px) {
+    .container{
+        display: grid;
+        height: 90vh;
+        grid-template-columns: 1fr ;
+        grid-template-rows: 2fr 3.5fr;
+        grid-template-areas: 
+        
+        "content2"
+        "content1";
+       
+       
+       
+        
+        
+    }
+    .childcontent{
+        
+        color: rgb(251, 255, 0);
+        font-size: 15px;
+        text-align: center;
+    }
+    .childcontent p {
+        color: white;
+        font-size: 20px ;
+    }
+    
+    
+  }
+  
+@media screen and (max-width: 900px) {
+    
+    .childcontent{
+        color: rgb(251, 255, 0);
+        font-size: 15px;
+        text-align: center;
+    }
+    .childcontent p {
+        color: white;
+        font-size: 20px ;
+    }
+    
+    
+  }
+
+  @media screen and (max-width: 500px) {
+    
+    .childcontent{
+        color: rgb(251, 255, 0);
+        font-size: 12px;
+        text-align: center;
+    }
+    .childcontent p {
+        color: white;
+        font-size: 15px ;
+    }
+    
+    
+  }
