@@ -4,9 +4,8 @@ import Learn from "../components/Learn";
 import Option from "../components/Option";
 import Footer from "../components/Footer";
 
-
-const TP = () => { 
-    return(
+function TP() {
+    return (
         <div>
             <Navbar />
             <Hero />
@@ -14,6 +13,6 @@ const TP = () => {
             <Option />
             <Footer />
         </div>);
-};
+}
 
 export default TP;
