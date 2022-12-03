@@ -6,7 +6,9 @@
     padding: 0;
     background-color: black;
     font-family: 'Times New Roman', Times, serif;
-
+    position: fixed;
+    z-index: 1000;
+    width: 100%;
     
 }
 

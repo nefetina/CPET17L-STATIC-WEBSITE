@@ -1,7 +1,29 @@
+import styles from '../styles/image.module.css'
+import Navbar from "../components/Navbar";
 
 function RenderImage({ data }) {
     return(    // Get the image data
-        <div>
+    
+        <div className={styles.bg} >
+            <Navbar/>
+            <div className={styles.text} >
+                <div>
+                    <div className={styles.texture}>  
+                        <h1>Cam Detector Captured Moments</h1>
+                    </div>
+                    
+                    <div className={styles.texture1}>
+                   
+                        <h4>POWERED BY: TechPeople</h4>
+                   
+                    </div>
+               
+                    
+                </div>
+               
+                
+            </div>
+            
             {data.images.map(function(images){                
                 let imagess = images['capture']['data'];
                 
@@ -11,10 +33,20 @@ function RenderImage({ data }) {
                 let date_time = images['date_time'];
                 // Render into HTML
                 return (
-                        <div>
-                            <p> Motion Detected at: {date_time}</p>
-                            <img src={image} alt="" width="500" height="500" />
+                    <div className={styles.main2}>
+                            
+                        <div className={styles.pol}>
+                            <div className={styles.tag}>
+                                <p> Motion Detected at: {date_time}</p>
+                            </div>
+                            <div className={styles.img}>
+                                <img className={styles.pic} src={image} alt=""  width="500" height="500" />
+                            </div>
+                            
+                        
                         </div>
+                    
+                    </div>
                         )
             })}
         </div>
