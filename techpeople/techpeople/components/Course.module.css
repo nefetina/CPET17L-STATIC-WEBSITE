@@ -59,9 +59,9 @@
   
   margin: 20px;
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-  height:400px ;
+  height:480px ;
   background-color: #D9D9D9;
-  min-width: 350px;
+  min-width: 450px;
   
   
 }
@@ -154,5 +154,6 @@
   .text{
     font-size: 12px;
   }
-
+  
+  
 }
