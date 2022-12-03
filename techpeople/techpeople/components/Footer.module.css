@@ -9,6 +9,24 @@
     "content1 content1 content1 content1";
     
 }
+.contents {
+    display: flex;
+    gap: 500px;
+}
+
+.social{
+    display: grid;
+    width: 100%;
+    align-items:center ;
+}
+
+.contact{
+    margin: 0;
+    padding: 0;
+    display: grid;
+}
+
+
 
 .content1{
    
@@ -24,10 +42,6 @@
     
 }
 
-.contact{
-    justify-content: left !important;
-    
-}
 .foot{
     font-weight: bold;
 }
@@ -44,10 +58,14 @@
     justify-content: center;
     margin-bottom: -20px;
 }
+
+.phone > p {
+    font-size: 16pt;
+}
 .icon{
-    height: 20px !important;
+    height: 40px !important;
     margin: 10px;
-    width: 20px;
+    width: 40px;
 }
 
 
@@ -62,15 +80,32 @@
         grid-template-areas: 
         
         "content1 content1 content1 content1";
-     
-       
-       
-        
         
     }
+    .contents {
+        display: grid;
+        gap: 0;
+    }
+    
+    .social{
+        display: grid;
+        width: 100%;
+        justify-content: center;
+        align-items:center ;
+    }
+    
     .contact{
-        justify-content: left !important;
-        
+        margin: 0;
+        padding: 0;
+        display: grid;
+    }
+    .contact > p {
+        padding: 0;
+        font-size: 10px;
+    } 
+    .phone > p {
+        font-size:10px;
+        margin: 0;
     }
     .foot{
         font-weight: bold;
@@ -79,23 +114,18 @@
         height: 20px !important;
         margin: 10px;
         width: 20px;
-        margin-bottom: -10px;
        
     }
     .phone{
         align-items: center;
         display: flex;
         justify-content: center;
-        margin-bottom: -20px;
+        margin: 0;
+        padding: 0;
     }
     .icon{
         height: 20px !important;
-        margin: 10px;
         width: 20px;
-    }
-    .contact{
-        justify-content: left !important;
-        font-size: 10px;
     }
     .social{
         font-size: 10px;

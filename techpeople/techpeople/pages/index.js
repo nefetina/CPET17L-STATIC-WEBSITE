@@ -11,7 +11,8 @@ function TP() {
             <Hero />
             <Learn />
             <Footer />
-        </div>);
+        </div>
+        );
 }
 
 export default TP;

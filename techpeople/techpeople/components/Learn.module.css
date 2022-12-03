@@ -1,4 +1,5 @@
 .container{
+    border: solid 2px black;
     display: grid;
     height: 80vh;
     grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -22,9 +23,8 @@
 .content2{
     
     display: flex;
-    background: url("/image/collage.png");
     background-image: url("/image/collage.png");
-    background-position: center center;
+    background-position: center;
     background-size: cover;
     position: relative;
     text-align: left;
