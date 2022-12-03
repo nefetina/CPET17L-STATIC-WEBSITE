@@ -54,9 +54,10 @@
   
 }
 .develop > img{
-  width: 70%;
+  width: 80%;
   height: 300px;
   margin-top: 20px;
+  border-radius: 15px;
 
 }
 .button > button{

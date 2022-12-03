@@ -8,7 +8,7 @@ const fourth = () => {
             </div>
             <div className= {styles.container}>
                 <div className = {styles.develop}>
-                <img src = "/image/one.png" />
+                <img src = "/image/tomas.png" />
                 <div className={styles.description}>
                      <h4><b>NEFETINA IRA TOMAS</b></h4>
                      <p>Project Manager</p>
@@ -16,7 +16,7 @@ const fourth = () => {
                 </div>
                 </div>
                 <div className = {styles.develop}>
-                <img src = "/image/one.png" />
+                <img src = "/image/corpuz.png" />
                 <div className={styles.description}>
                      <h4><b>JOYCELYN CORPUZ</b></h4>
                      <p>Developer</p>
@@ -24,7 +24,7 @@ const fourth = () => {
                 </div>
                 </div>
                 <div className = {styles.develop}>
-                <img src = "/image/one.png" />
+                <img src = "/image/miole.png" />
                 <div className={styles.description}>
                      <h4><b>CHRICHELLE MIOLE</b></h4>
                      <p>Designer</p>
@@ -32,7 +32,7 @@ const fourth = () => {
                 </div>
                 </div>
                 <div className = {styles.develop}>
-                <img src = "/image/one.png" />
+                <img src = "/image/ramos.png" />
                 <div className={styles.description}>
                      <h4><b>DANIELA RAMOS</b></h4>
                      <p>Developer</p>
@@ -40,7 +40,7 @@ const fourth = () => {
                 </div>
                 </div>
                 <div className = {styles.develop}>
-                <img src = "/image/one.png" />
+                <img src = "/image/mico.png" />
                 <div className={styles.description}>
                      <h4><b>MICO RYAN SAN PABLO</b></h4>
                      <p>Designer</p>
