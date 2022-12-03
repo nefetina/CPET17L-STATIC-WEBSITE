@@ -1,5 +1,5 @@
 .container{
-    border: solid 2px black;
+
     display: grid;
     height: 80vh;
     grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -22,11 +22,11 @@
 }
 .content2{
     
-    display: flex;
-    background-image: url("/image/collage.png");
+   
+    background: url("/image/collage.png");
     background-position: center;
     background-size: cover;
-    position: relative;
+  
     text-align: left;
     background-color: #61ce79;
     grid-area: content2;

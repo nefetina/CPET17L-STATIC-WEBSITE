@@ -6,24 +6,13 @@
     grid-template-areas: 
     
     
-    "content1 content1 content1 content1";
+    "content1";
     
 }
 .contents {
     display: flex;
     gap: 500px;
-}
-
-.social{
-    display: grid;
-    width: 100%;
-    align-items:center ;
-}
-
-.contact{
-    margin: 0;
-    padding: 0;
-    display: grid;
+   
 }
 
 
@@ -71,6 +60,78 @@
 
 
 
+
+@media screen and (max-width: 960px) {
+    .container{
+        display: grid;
+        height: 5vh;
+        grid-template-columns: 1fr ;
+        grid-template-rows: 1fr;
+        grid-template-areas: 
+        
+        "content1 content1 content1 content1";
+        
+    }
+    .contents {
+        display: grid;
+        gap: 0;
+    }
+    
+    .social{
+        display: grid;
+        width: 100%;
+        justify-content: center;
+        align-items:center ;
+    }
+    
+    .contact{
+        margin: 0;
+        padding: 0;
+        display: grid;
+    }
+    .contact > p {
+        padding: 0;
+        font-size: 10px;
+    } 
+    .phone > p {
+        font-size:10px;
+        margin: 0;
+    }
+    .foot{
+        font-weight: bold;
+    }
+    .pics {
+        height: 20px !important;
+        margin: 10px;
+        width: 20px;
+       
+    }
+    .phone{
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        margin: 0;
+        padding: 0;
+    }
+    .icon{
+        height: 20px !important;
+        width: 20px;
+    }
+    .social{
+        font-size: 10px;
+    }
+    .one{
+        font-size: 10px;
+    }
+    .contents {
+        display: flex;
+        gap: 250px;
+       
+    }
+    
+
+    
+}
 @media screen and (max-width: 500px) {
     .container{
         display: grid;
@@ -133,6 +194,10 @@
     .one{
         font-size: 10px;
     }
-
+    .contents {
+        display: flex;
+        gap: 150px;
+       
+    }
     
 }
