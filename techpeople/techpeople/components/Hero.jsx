@@ -20,7 +20,7 @@ const Hero = () => {
                   </div>
                   <div className={styles.quote}>
                       
-                      <button className={styles.btn}><Link href="/cam">SHOW PROJECT</Link></button>
+                      <button className={styles.btn}><Link href="/images">SHOW PROJECT</Link></button>
                       
                       
                   </div>

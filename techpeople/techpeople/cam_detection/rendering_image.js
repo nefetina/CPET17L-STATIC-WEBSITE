@@ -1,4 +1,3 @@
-import styles from "./Rendering_image.module.css";
 import { Blob } from 'buffer';
 
 function RenderImage({data}) {
@@ -18,5 +17,4 @@ export async function getServerSideProps() {
         props: {data},
     }
 }
-
-export default RenderImage;
+export default RenderImage
