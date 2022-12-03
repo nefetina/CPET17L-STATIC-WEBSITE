@@ -12,7 +12,10 @@
 }
 
 .bg{
-  background-color: #61ce79;
+  background: url("/image/city green.jpg");
+    background-image: url("/image/city green.jpg");
+    background-position: center center;
+    background-size: cover;
   height: 100vh;
   position: fixed;
     width: 100%;
