@@ -20,7 +20,7 @@ const Course = () => {
               <div className={styles.content2}>
                     <div className={styles.card1}>
                       <picture>
-                        <img src = "/image/Rectangle56.png" />
+                        <img src = "/image/Rectangle56.png" alt="none"/>
                       </picture>
                       <div className={styles.text}>
                         <h4><b>UI Designing</b></h4>
