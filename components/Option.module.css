@@ -53,13 +53,15 @@
   font-family: sans-serif;
   
 }
-.develop > img{
+.develop > picture img{
   width: 80%;
   height: 300px;
   margin-top: 20px;
   border-radius: 15px;
 
 }
+
+
 .button > button{
   background-color: black;
   color: white;
