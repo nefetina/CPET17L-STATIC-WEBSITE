@@ -10,9 +10,9 @@ const footer = () => {
                                 <p>FOLLOW US</p>
                                 <div className= {styles.follow}>
                                     <picture>
-                                        <img src = "/image/fb.png" className={styles.pics}/>
-                                        <img src = "/image/ig.png"  className={styles.pics}/>
-                                        <img src = "/image/tweet.png" className={styles.pics}/>
+                                        <img src = "/image/fb.png" className={styles.pics} alt="none"/>
+                                        <img src = "/image/ig.png"  className={styles.pics} alt="none"/>
+                                        <img src = "/image/tweet.png" className={styles.pics} alt="none"/>
                                     </picture>
                                 </div>
                             </div>
@@ -20,7 +20,7 @@ const footer = () => {
                                 <p>CONTACT US</p>
                                 <div className= {styles.phone}>
                                     <picture>
-                                        <img src = "/image/phone.png" className= {styles.icon} /><p>09651234512</p>
+                                        <img src = "/image/phone.png" className= {styles.icon} alt="none"/><p>09651234512</p>
                                     </picture>
                                 </div>
                             </div>

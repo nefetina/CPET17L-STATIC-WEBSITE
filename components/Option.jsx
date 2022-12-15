@@ -9,7 +9,7 @@ const fourth = () => {
             <div className= {styles.container}>
                 <div className = {styles.develop}>
                     <picture>
-                        <img src = "/image/tomas.png" />
+                        <img src = "/image/tomas.png" alt="none"/>
                     </picture>
                 <div className={styles.description}>
                      <h4><b>NEFETINA IRA TOMAS</b></h4>
@@ -19,7 +19,7 @@ const fourth = () => {
                 </div>
                 <div className = {styles.develop}>
                     <picture>
-                        <img src = "/image/corpuz.png" />
+                        <img src = "/image/corpuz.png" alt="none"/>
                     </picture>
                 <div className={styles.description}>
                      <h4><b>JOYCELYN CORPUZ</b></h4>
@@ -29,7 +29,7 @@ const fourth = () => {
                 </div>
                 <div className = {styles.develop}>
                     <picture>
-                        <img src = "/image/miole.png" />
+                        <img src = "/image/miole.png" alt="none"/>
                     </picture>
                 <div className={styles.description}>
                      <h4><b>CHRICHELLE MIOLE</b></h4>
@@ -39,7 +39,7 @@ const fourth = () => {
                 </div>
                 <div className = {styles.develop}>
                     <picture>
-                        <img src = "/image/ramos.png" />
+                        <img src = "/image/ramos.png" alt="none"/>
                     </picture>
                 <div className={styles.description}>
                      <h4><b>DANIELA RAMOS</b></h4>
@@ -49,7 +49,7 @@ const fourth = () => {
                 </div>
                 <div className = {styles.develop}>
                     <picture>
-                        <img src = "/image/mico.png" />
+                        <img src = "/image/mico.png" alt="none"/>
                     </picture>
                 <div className={styles.description}>
                      <h4><b>MICO RYAN SAN PABLO</b></h4>

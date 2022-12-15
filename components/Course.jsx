@@ -32,7 +32,7 @@ const Course = () => {
                     </div>
                     <div className={styles.card1}>
                       <picture>
-                        <img src = "/image/deploy.png" />
+                        <img src = "/image/deploy.png" alt="none"/>
                       </picture>
                       <div className={styles.text}>
                         <h4><b>Deployment</b></h4>
@@ -44,7 +44,7 @@ const Course = () => {
                     </div>
                     <div className={styles.card1}>
                       <picture>
-                        <img src = "/image/database.png" />
+                        <img src = "/image/database.png" alt="none"/>
                       </picture>
                       <div className={styles.text}>
                         <h4><b>Database Creation</b></h4>
@@ -56,7 +56,7 @@ const Course = () => {
                     </div>
                     <div className={styles.card1}>
                       <picture>
-                        <img src = "/image/webdev.png" />
+                        <img src = "/image/webdev.png" alt="none"/>
                       </picture>
                       <div className={styles.text}>
                         <h4><b>Web Development</b></h4>
