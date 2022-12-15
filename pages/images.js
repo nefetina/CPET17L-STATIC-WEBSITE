@@ -40,7 +40,7 @@ function RenderImage({ data }) {
                                 <p> Motion Detected at: {date_time}</p>
                             </div>
                             <div className={styles.img}>
-                                <img className={styles.pic} src={image} alt=""  width="500" height="500" />
+                                <Image className={styles.pic} src={image} alt=""  width="500" height="500" />
                             </div>
                             
                         
