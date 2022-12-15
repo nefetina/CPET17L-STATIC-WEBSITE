@@ -8,7 +8,9 @@ const fourth = () => {
             </div>
             <div className= {styles.container}>
                 <div className = {styles.develop}>
-                <img src = "/image/tomas.png" />
+                    <picture>
+                        <img src = "/image/tomas.png" />
+                    </picture>
                 <div className={styles.description}>
                      <h4><b>NEFETINA IRA TOMAS</b></h4>
                      <p>Project Manager</p>
@@ -16,7 +18,9 @@ const fourth = () => {
                 </div>
                 </div>
                 <div className = {styles.develop}>
-                <img src = "/image/corpuz.png" />
+                    <picture>
+                        <img src = "/image/corpuz.png" />
+                    </picture>
                 <div className={styles.description}>
                      <h4><b>JOYCELYN CORPUZ</b></h4>
                      <p>Developer</p>
@@ -24,7 +28,9 @@ const fourth = () => {
                 </div>
                 </div>
                 <div className = {styles.develop}>
-                <img src = "/image/miole.png" />
+                    <picture>
+                        <img src = "/image/miole.png" />
+                    </picture>
                 <div className={styles.description}>
                      <h4><b>CHRICHELLE MIOLE</b></h4>
                      <p>Designer</p>
@@ -32,7 +38,9 @@ const fourth = () => {
                 </div>
                 </div>
                 <div className = {styles.develop}>
-                <img src = "/image/ramos.png" />
+                    <picture>
+                        <img src = "/image/ramos.png" />
+                    </picture>
                 <div className={styles.description}>
                      <h4><b>DANIELA RAMOS</b></h4>
                      <p>Developer</p>
@@ -40,7 +48,9 @@ const fourth = () => {
                 </div>
                 </div>
                 <div className = {styles.develop}>
-                <img src = "/image/mico.png" />
+                    <picture>
+                        <img src = "/image/mico.png" />
+                    </picture>
                 <div className={styles.description}>
                      <h4><b>MICO RYAN SAN PABLO</b></h4>
                      <p>Designer</p>

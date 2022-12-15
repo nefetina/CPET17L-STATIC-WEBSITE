@@ -5,7 +5,9 @@ const Navbar = () => {
         <div className={styles.container}>
             <div className={styles.container1}>
                 <div className={styles.logo}>
+                    <picture>
                     <img src="/image/logo.png" />
+                    </picture>
                 </div>
                 <div className={styles.name}>
                     <div className={styles.tech}>
